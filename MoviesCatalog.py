@@ -21,7 +21,7 @@ CLIENT_ID = json.loads(
 APPLICATION_NAME = "Movies Catalog Application"
 
 # Connect to database
-engine = create_engine('postgresql://catalog:cataloggrader@localhost/catalog')
+engine = create_engine('postgresql://catalog:catalogpassword@localhost/catalog')
 Base.metadata.bind = engine
 
 
